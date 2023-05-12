@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/374aa39fba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -16,7 +18,15 @@
             <div class="logo">
                 <h2>NY</h2>
             </div>
-            <nav class="list">
+            
+                <input type="radio" name="menu" id="hamburger">
+                <label for="hamburger" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            
+                <input type="radio" id="x" name="menu">
+                <label for="x" class="x"><i class="fa-solid fa-xmark"></i></label>
+                <!-- <input type="checkbox" id="x">
+                <label class="x" for="x"><i class="fa-solid fa-xmark"></i></label> -->
+                <nav class="list">
                 <ul>
                     <a href="#">Inicio</a>
                     <a href="#">Servicios</a>
@@ -24,6 +34,7 @@
                     <a href="#">Contacto</a>
                 </ul>
             </nav>
+            
         </header>
         <main>
             <section id="hero">
@@ -42,7 +53,51 @@
                     Desde hacer a una chica recuperar a su ex hasta lograr que una companía pueda superar a la competencia, hacemos todo tipo de planeaciones para que puedas superar tu incoveniente. Contamos con expertos en psicología, tecnología, maquillaje y más rubros que nos hacen formar un grupo complementado y adaptable a cualquier situación.
                 </div>
             </section>
+            <section class="cards-section">
+                <h2>Beneficios</h2>
+                <div class="cards-container">
+                    <div class="card">
+                    <img src="assets/planning.svg" alt="">
+                        <h3>Planeamiento</h3>
+                        <p>Te daremos paso a paso nuestro plan de acción personalizado para que confies en nosotros y veas que no tiramos ninguna sarasa.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/ideas.svg" alt="">
+                        <h3>Diferentes propuestas</h3>
+                        <p>Si los costos del plan no se ajustan a tu presupuesto podemos proponerte distintas ideas.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/money.svg" alt="">
+                        <h3>Garantía</h3>
+                        <p>Si el problema no es resuelto te devolvemos tu dinero.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section">
+                <h2>Contáctanos</h2>
+                <div class="data">
+                    <ul>
+                        <i>Sede central</i>
+                        <li><i class="fa-solid fa-location-dot"></i><p>E.U. Illinois</p></li>
+                        <li><i class="fa-regular fa-envelope"></i><p>simuladores@sim.com</p></li>
+                        <li><i class="fa-solid fa-phone"></i><p>199288341</p></li>
+                    </ul>
+                    <ul>
+                        <i>Sede en Argentina</i>
+                        <li><i class="fa-solid fa-location-dot"></i><p>CABA,Longchamps</p></li>
+                        <li><i class="fa-regular fa-envelope"></i><p>simuladores@sim.com</p></li>
+                        <li><i class="fa-solid fa-phone"></i><p>211985436</p></li>
+                    </ul>
+                    <img src="assets/mapa.jpg" alt="">
+                </div>
+            </section>
         </main>
+        <footer class="footer">
+            <div>
+                <h2>NY</h2>
+                <p>Copyrighy @2023 Nicolás Ybarra </p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
