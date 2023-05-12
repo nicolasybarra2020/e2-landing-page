@@ -34,7 +34,8 @@ header input{display: none;}
     width: 20px;
     height: 20px;
 }
-.x{z-index: 10;}
+.x{display: none;z-index: 10;}
+
 .x i{color: black;} 
 .logo h2{
     font-family: 'Josefin Sans', sans-serif;

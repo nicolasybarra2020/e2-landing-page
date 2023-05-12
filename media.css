@@ -28,16 +28,16 @@
         width: 200px;
         background-color: white;
         transform: translateY(-250px);
-        transition: transform 1s;
+        /* transition: transform 1s; */
     }
     .list ul{display: flex;flex-direction: column;justify-content: center;align-items: center;}
     .list ul a{color: black;border-bottom: 1px;}
 
     .x{width: 30px;height: 30px;}  
     .hamburger{display: block;}
-    header input#hamburger:checked ~ .list,header input#hamburger:checked ~ .x{transform: translateY(0px);}
+    header input#hamburger:checked ~ .list,header input#hamburger:checked ~ .x{transform: translateY(0px);transition: transform 1s;}
 
-    header input#x:checked ~ .list,header input#x:checked ~ .x{transform: translateY(-250px);}
+    header input#x:checked ~ .list,header input#x:checked ~ .x{transform: translateY(-250px);transition: transform 1s;}
     #info div{font-size: 1.2rem;}
     #hero .company p{font-size: 1rem;}
     #hero img{width: 90%;}
