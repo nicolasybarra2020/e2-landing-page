@@ -8,6 +8,7 @@
         width: 80%;
     }
     #info div{width: 90%;}
+    .data img{height: 210px;}
     .card h3{
         font-size: 20px;
         font-weight: 300;
@@ -52,7 +53,7 @@
     .card{
         width: 80%;
     }
-    .data img{width: 200px;}
+    .data img{width: 200px;height: 210px;}
     .footer div{
         padding: 20px 0px;
     }
